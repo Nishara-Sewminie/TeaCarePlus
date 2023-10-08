@@ -1,0 +1,62 @@
+
+.but4 {
+  position: fixed;
+  bottom: 40px; 
+  left: 60px; 
+  background-color: hsl(61, 100%, 50%);
+  color: hsl(0, 0%, 3%);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.but4:hover{
+  background-color: #ecdd05;
+}
+
+.help-box {
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #10498a, #597db327);
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: -85px;
+  border-radius: 50px;
+}
+
+.leaf-image{
+  padding: -50px;
+  
+}
+
+.guid {
+  font-size: 24px; 
+  color: #faf8f8; 
+  margin-bottom: 20px; 
+}
+
+
+.help .help-list {
+  list-style-position: inside !important; 
+  padding-left: 0 !important;
+}
+
+.help .help-list li {
+  margin-bottom: -10px !important;
+}
+
+
+.example {
+  font-size: 24px; 
+  color: #fcf8f8; 
+  margin-top: 50px;
+  margin-bottom: 5px;
+}

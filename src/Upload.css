@@ -1,0 +1,74 @@
+
+.but3 {
+  position: fixed;
+  bottom: 20px; 
+  left: 20px; 
+  background-color: hsl(61, 100%, 50%);
+  color: hsl(0, 0%, 3%);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.but3:hover{
+  background-color: #f7f5de;
+}
+
+
+.upload-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: 20px;
+}
+.content {
+  font-size:large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-style:normal;
+  background-color: rgb(15, 94, 117);
+  padding: 20px;
+  margin-top: 30px;
+  width: 400px;
+  display: inline;
+}
+.upload-box {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, rgb(194, 232, 243), #ebedf005);
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff; /* Text color for better contrast */
+}
+
+/* Styles for the upload button */
+.upload-button {
+  margin-top: auto; /* Push the button to the bottom center */
+  padding: 10px 40px;
+  background-color: #fff;
+  color: hsl(0, 0%, 1%);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.upload-button input[type="file"] {
+  display: none;
+}
+
+.upload-button:hover {
+  background-color: rgb(196, 196, 197);
+}
+
+
+
