@@ -1,0 +1,49 @@
+.containerleaf,
+.containerflower {
+    position: relative;
+    width: 48%;
+    display: inline-block;
+    margin: 10px; 
+}
+
+.imageleaf,
+.imageflower {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(167, 243, 25, 0.795);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    border-radius: 20px;
+}
+
+.containerleaf:hover .overlay,
+.containerflower:hover .overlay {
+    width: 100%;
+}
+
+.textleaf,
+.textflower {
+    color: rgb(12, 12, 12);
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 19px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-decoration: wavy;
+    text-align: center;
+}
