@@ -1,0 +1,55 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #5d8a0a;
+  padding: 15px 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+
+}
+
+.nav-list {
+  list-style: none; /* Remove circle bullets */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 15px; /* Adjust spacing between items */
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold; /* Set font weight to bold for a button look */
+  cursor: pointer;
+  padding: 10px 20px; /* Adjust padding for the button */
+  border-radius: 100px;
+  background-color: #5d8a0a; /* Set button background color */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-item a:hover {
+  background-color: #122104; /* Set hover background color */
+}
+
+/* Add animation to the navigation bar */
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.navbar {
+  animation: fadeInDown 0.5s ease;
+}
