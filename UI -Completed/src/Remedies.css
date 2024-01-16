@@ -1,0 +1,29 @@
+/* Remedies.css */
+
+
+.remedies-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  .remedies-table th{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  .remedies-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .remedies-table th {
+    background-color: #67af14;
+    color: #fcfcfc;
+  }
+  
+  .remedies-table tbody tr:nth-child(even) {
+    background-color: #fcfcfc;
+  }
+  

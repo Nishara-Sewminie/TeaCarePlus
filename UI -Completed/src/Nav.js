@@ -26,6 +26,11 @@ const Nav = ({ scrollToHome }) => {
           </ScrollLink>
         </li>
         <li className="nav-item">
+          <ScrollLink to="remedies" smooth={true} duration={500}>
+            Remedies
+          </ScrollLink>
+        </li>
+        <li className="nav-item">
           <ScrollLink to="about" smooth={true} duration={500}>
             About
           </ScrollLink>

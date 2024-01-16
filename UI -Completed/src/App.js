@@ -9,6 +9,7 @@ import Developer from './Developer';
 import Footer from './Footer';
 import Nav from './Nav';
 import { ImageUpload } from './ImageUpload';
+import Remedies from './Remedies';
 import './App.css';
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
   const developerRef = useRef(null);
   const footerRef = useRef(null);
   const ImageUploadRef = useRef(null);
+  const RemediesRef = useRef(null);
 
   const handleScroll = () => {
     setScrollPosition(window.scrollY);
@@ -54,6 +56,7 @@ const App = () => {
             element={<Home scrollPosition={scrollPosition} scrollToTop={() => scrollToRef(homeRef)} />}
           />
           <Route path="./ImageUpload"  element={<ImageUpload/>}/>
+          <Route path="./remedies"  element={<Remedies/>}/>
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
@@ -65,6 +68,10 @@ const App = () => {
         
         <Element name="ImageUpload" ref={ImageUploadRef}>
         <ImageUpload />
+        </Element>
+
+        <Element name="remedies" ref={RemediesRef}>
+        <Remedies/>
         </Element>
         
         <Element name="about" ref={aboutRef}>
